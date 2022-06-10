@@ -188,4 +188,4 @@ const mp_obj_module_t ulab_user_cmodule = {
     .globals = (mp_obj_dict_t*)&mp_module_ulab_globals,
 };
 
-MP_REGISTER_MODULE(MP_QSTR_ulab, ulab_user_cmodule, MODULE_ULAB_ENABLED);
+MP_REGISTER_MODULE(MP_QSTR_ulab, ulab_user_cmodule);
